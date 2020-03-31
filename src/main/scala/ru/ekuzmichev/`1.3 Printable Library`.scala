@@ -27,7 +27,7 @@ object `1.3 Printable Library` {
 
 }
 
-object Test extends App {
+object PrintableLibraryTest extends App {
   import `1.3 Printable Library`._
   import PrintableInstances._
   import PrintableSyntax._
