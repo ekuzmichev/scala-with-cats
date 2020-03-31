@@ -1,2 +1,7 @@
 *.class
 *.log
+
+.idea/
+.idea_modules/
+out/
+*.iws
