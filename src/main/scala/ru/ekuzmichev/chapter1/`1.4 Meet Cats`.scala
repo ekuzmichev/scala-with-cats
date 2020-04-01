@@ -1,6 +1,6 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter1
 
-import java.time.{ LocalDate, LocalDateTime, ZoneOffset }
+import java.time.{LocalDate, LocalDateTime, ZoneOffset}
 import java.util.Date
 
 object `1.4 Meet Cats` {

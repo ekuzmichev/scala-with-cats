@@ -1,4 +1,4 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter2
 
 object `2.3 Exercise: The Truth About Monoids` {
   trait Semigroup[A] {
@@ -41,8 +41,8 @@ object `2.3 Exercise: The Truth About Monoids` {
 
 object TheTruthAboutMonoidsTest extends App {
   import `2.3 Exercise: The Truth About Monoids`._
-  import MonoidLaws._
   import MonoidInstances._
+  import MonoidLaws._
 
   def testLaws()(implicit monoid: Monoid[Boolean]): Unit = {
     assert(associativeLaw(true, false, true))

@@ -1,4 +1,4 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter1
 
 object `1.5.5 Exercise: Equality, Liberty, and Felinity` {
   import cats.Eq

@@ -1,4 +1,6 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter2
+
+import ru.ekuzmichev.util
 
 object `2.5.4 Exercise: Adding All The Things` {
   import cats.Monoid

@@ -1,4 +1,4 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter1
 
 import java.util.Date
 

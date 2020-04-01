@@ -1,4 +1,4 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter1
 
 object `1.4.6 Exercise: Cat Show` {
   import cats.Show

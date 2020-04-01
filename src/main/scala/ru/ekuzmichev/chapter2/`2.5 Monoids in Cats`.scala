@@ -1,4 +1,4 @@
-package ru.ekuzmichev
+package ru.ekuzmichev.chapter2
 
 object `2.5 Monoids in Cats` {}
 
