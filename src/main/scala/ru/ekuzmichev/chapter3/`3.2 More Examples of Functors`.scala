@@ -3,7 +3,9 @@ package ru.ekuzmichev.chapter3
 object `3.2 More Examples of Functors` {}
 
 object MoreExamplesOfFunctorsTest extends App {
+  import cats.Functor
   import cats.instances.function._
+  import cats.instances.option._
   import cats.syntax.functor._
 
   val func1: Int => Double    = _.toDouble
@@ -12,4 +14,8 @@ object MoreExamplesOfFunctorsTest extends App {
   println((func1 map func2)(1))
   println((func1 andThen func2)(1))
   println(func2(func1(1)))
+
+  val func: Int => Double                       = _.toDouble
+  val liftedFunc: Option[Int] => Option[Double] = Functor[Option].lift(func)
+
 }
