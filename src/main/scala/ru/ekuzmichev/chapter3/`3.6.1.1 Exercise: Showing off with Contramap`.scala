@@ -15,7 +15,7 @@ object `3.6.1.1 Exercise: Showing off with Contramap` {
 
     implicit val stringPrintable: Printable[String]            = (value: String) => "\"" + value + "\""
     implicit val booleanPrintable: Printable[Boolean]          = (value: Boolean) => if (value) "yes" else "no"
-    implicit def boxPrintable[A: Printable]: Printable[Box[A]] = (box: Box[A]) => Printable[A].format(box.value)
+    implicit def boxPrintable[A: Printable]: Printable[Box[A]] = Printable[A].contramap(_.value)
   }
 
   final case class Box[A](value: A)
