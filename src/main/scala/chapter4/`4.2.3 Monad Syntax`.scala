@@ -16,6 +16,9 @@ object `4.2.3 Monad Syntax` {
 object MonadSyntaxTest extends App {
   import `4.2.3 Monad Syntax`._
   import cats.instances.option._
+  import cats.Id
 
   println(sumSquare(Option(3), Option(4)))
+  println(sumSquare(3 : Id[Int], 4 : Id[Int]))
+
 }
