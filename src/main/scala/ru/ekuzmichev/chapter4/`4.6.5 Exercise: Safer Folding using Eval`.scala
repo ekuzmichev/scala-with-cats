@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 object `4.6.5 Exercise: Safer Folding using Eval` {
   import cats.Eval

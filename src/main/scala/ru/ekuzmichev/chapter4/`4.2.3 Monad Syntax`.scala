@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 object `4.2.3 Monad Syntax` {
   import scala.language.higherKinds

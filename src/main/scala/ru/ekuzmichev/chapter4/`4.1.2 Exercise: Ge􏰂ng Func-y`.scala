@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 import scala.language.higherKinds
 

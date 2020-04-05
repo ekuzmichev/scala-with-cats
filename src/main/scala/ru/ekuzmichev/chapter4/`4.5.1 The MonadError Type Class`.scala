@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 object `4.5.1 The MonadError Type Class` {}
 

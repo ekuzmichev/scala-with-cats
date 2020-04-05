@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 object `4.8.1 Crea􏰀ting and Unpacking Readers` {
   import cats.data.Reader

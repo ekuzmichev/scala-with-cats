@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 object `4.9.1 Creating and Unpacking State` {
   import cats.data.State
@@ -18,7 +18,7 @@ object `4.9.1 Creating and Unpacking State` {
 }
 
 object CreatingAndUnpackingStateTest extends App {
-  import chapter4.`4.9.1 Creating and Unpacking State`.program
+  import ru.ekuzmichev.chapter4.`4.9.1 Creating and Unpacking State`.program
 
   val (state, result) = program.run(1).value
   assert(state == 3)

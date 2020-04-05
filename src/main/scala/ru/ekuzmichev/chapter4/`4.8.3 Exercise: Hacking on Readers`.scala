@@ -1,4 +1,4 @@
-package chapter4
+package ru.ekuzmichev.chapter4
 
 object `4.8.3 Exercise: Hacking on Readers` {
   import cats.data.Reader
