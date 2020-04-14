@@ -1,5 +1,7 @@
 package ru.ekuzmichev.chapter2
 
+import cats.kernel.Semigroup
+
 object `2.5 Monoids in Cats` {}
 
 object MonoidsInCatsTest extends App {
@@ -16,4 +18,9 @@ object MonoidsInCatsTest extends App {
 
   println(42.some |+| 42.some)
   println(42.some |+| none)
+
+  import cats.instances.function._
+
+  println(Semigroup[Int => Int].combine(_ + 2, Semigroup[Int => Int].combine(_ + 1, _ * 10)).apply(6))
+  println(Semigroup[Int => Int].combine(Semigroup[Int => Int].combine(_ + 2, _ + 1), _ * 10).apply(6))
 }
