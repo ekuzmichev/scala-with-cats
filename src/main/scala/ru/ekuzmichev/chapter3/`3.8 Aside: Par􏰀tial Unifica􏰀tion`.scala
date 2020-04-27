@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter3
 
-object `3.8 Aside: Par􏰀tial Unifica􏰀tion` {}
+object `3.8 Aside: Par􏰀tial Unifica􏰀tion`
 
 object PartialUnificationTest extends App {
   import cats.instances.function._

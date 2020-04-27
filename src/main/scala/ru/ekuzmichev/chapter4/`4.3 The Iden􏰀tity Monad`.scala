@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter4
 
-object `4.3 The Iden􏰀tity Monad` {}
+object `4.3 The Iden􏰀tity Monad`
 
 object TheIdentityMonadTest extends App {
   import cats.{ Id, Monad }

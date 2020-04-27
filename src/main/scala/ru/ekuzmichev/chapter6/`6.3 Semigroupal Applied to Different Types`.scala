@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter6
 
-object `6.3 Semigroupal Applied to Different Types` {}
+object `6.3 Semigroupal Applied to Different Types`
 
 object SemigroupalAppliedToDifferentTypesTest extends App {
   import cats.Semigroupal

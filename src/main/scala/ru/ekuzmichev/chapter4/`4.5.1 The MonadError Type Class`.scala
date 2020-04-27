@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter4
 
-object `4.5.1 The MonadError Type Class` {}
+object `4.5.1 The MonadError Type Class`
 
 object TheMonadErrorTypeClass extends App {
   import cats.MonadError

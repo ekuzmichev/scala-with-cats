@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter3
 
-object `3.2 More Examples of Functors` {}
+object `3.2 More Examples of Functors`
 
 object MoreExamplesOfFunctorsTest extends App {
   import scala.language.higherKinds

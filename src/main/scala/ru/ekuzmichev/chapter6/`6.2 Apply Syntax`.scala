@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter6
 
-object `6.2 Apply Syntax` {}
+object `6.2 Apply Syntax`
 
 object ApplySyntaxTest extends App {
   import cats.syntax.apply._

@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter3
 
-object `3.7 Contravariant and Invariant in Cats` {}
+object `3.7 Contravariant and Invariant in Cats`
 
 object ContravariantAndInvariantInCatsTest extends App {
   import cats.instances.string._

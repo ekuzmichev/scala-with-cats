@@ -2,7 +2,7 @@ package ru.ekuzmichev.chapter6
 
 import scala.util.Try
 
-object `6.4 Validated` {}
+object `6.4 Validated`
 
 object ValidatedTest extends App {
   import cats.Semigroupal

@@ -1,6 +1,6 @@
 package ru.ekuzmichev.chapter6
 
-object `6.1.1 Joining Two Contexts` {}
+object `6.1.1 Joining Two Contexts`
 
 object JoiningTwoContextsTest extends App {
   import cats.Semigroupal

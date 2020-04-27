@@ -2,7 +2,7 @@ package ru.ekuzmichev.chapter2
 
 import cats.kernel.Semigroup
 
-object `2.5 Monoids in Cats` {}
+object `2.5 Monoids in Cats`
 
 object MonoidsInCatsTest extends App {
   import cats.Monoid
