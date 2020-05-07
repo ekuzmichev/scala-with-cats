@@ -1,4 +1,4 @@
-package ru.ekuzmichev.chapter8
+package ru.ekuzmichev.chapter9
 
 import cats.Monoid
 
